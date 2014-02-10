@@ -1,4 +1,6 @@
 package com.detil.jhtp;
+// start of time 1 class
+// We just wanna say this is a brunch
 public class Time1
 {
    private int hour;
@@ -22,5 +24,9 @@ public class Time1
    public String toString()
    {
         return String.format( "%d:%02d:%02d %s",( ( hour == 0 || hour == 12 ) ? 12 : hour % 12 ),minute, second, ( hour < 12 ? "AM" : "PM" ) );
+   }
+   public String sayHi2()
+   {
+       return "Hi 2";
    }
 }
